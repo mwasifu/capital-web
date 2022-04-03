@@ -1,0 +1,57 @@
+.heading {
+  padding: 1rem;
+}
+
+.mode {
+  font-weight: 400;
+}
+
+.right-col {
+  width: 80%;
+  margin: auto;
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .right-col {
+    margin-top: 200px;
+    position: absolute;
+    left: 50px;
+  }
+  .table {
+  }
+  .heading {
+    color: white;
+    background: rgb(25, 25, 25);
+    background: linear-gradient(
+      261deg,
+      rgba(25, 25, 25, 1) 0%,
+      rgba(34, 34, 34, 1) 52%,
+      rgba(34, 34, 34, 1) 100%
+    );
+
+  }
+}
+
+a{
+    color: violet;
+    text-decoration: none;
+}
+
+a:hover{
+    color: purple;
+    text-decoration: none;
+    
+}
+
+.entry{
+    margin: auto;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.title{
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

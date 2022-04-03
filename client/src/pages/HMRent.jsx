@@ -1,23 +1,23 @@
 import React from "react";
 import { Button, Col, Row } from "rsuite";
 import SidebarHM from "../components/SidebarHM";
-import HMShopOverviewTable from "../components/HMShopOverviewTable";
+import HMRentTable from "../components/HMRentTable";
 import "./styles/common.css";
-const HM = () => {
+const HMRent = () => {
   return (
     <div>
       <Row>
-        <Col sm={1} md={1} lg={4}>
+        <Col>
           <SidebarHM />
         </Col>
-        <Col className="right-col" sm={1} md={1} lg={2}>
+        <Col className="right-col">
           <div className="heading">
             <h1 className="title">HM</h1>
             <br />
-            <h1 className="mode">Shop Overview</h1>
+            <h1 className="mode">Rent Collection</h1>
           </div>
-          <div className="table">
-            <HMShopOverviewTable />
+          <div>
+            <HMRentTable />
           </div>
           <div className="entry">
             <Button color="violet" appearance="primary">Create a new entry</Button>
@@ -28,4 +28,4 @@ const HM = () => {
   );
 };
 
-export default HM;
+export default HMRent;

@@ -1,0 +1,15 @@
+.nav-collection {
+  box-shadow: -3px 2px 10px black;
+  height: "100vh";
+  /* position: "relative";
+  bottom: "2px"; */
+}
+
+.sidebar-body {
+  /* Created with https://www.css-gradient.com */
+  background: #5d7acc;
+  background: -webkit-linear-gradient(bottom, #5d7acc, #3e50c7);
+  background: -moz-linear-gradient(bottom, #5d7acc, #3e50c7);
+  background: linear-gradient(to top, #5d7acc, #3e50c7);
+
+}

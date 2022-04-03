@@ -1,23 +1,24 @@
 import React from "react";
 import { Button, Col, Row } from "rsuite";
-import SidebarHM from "../components/SidebarHM";
-import HMShopOverviewTable from "../components/HMShopOverviewTable";
+import RCShopOverviewTable from "../components/RCShopOverviewTable";
+import SidebarRC from "../components/SidebarRC";
 import "./styles/common.css";
-const HM = () => {
+
+const RC = () => {
   return (
     <div>
       <Row>
-        <Col sm={1} md={1} lg={4}>
-          <SidebarHM />
+        <Col>
+          <SidebarRC />
         </Col>
-        <Col className="right-col" sm={1} md={1} lg={2}>
+        <Col className="right-col">
           <div className="heading">
-            <h1 className="title">HM</h1>
+            <h1 className="title">RC</h1>
             <br />
             <h1 className="mode">Shop Overview</h1>
           </div>
-          <div className="table">
-            <HMShopOverviewTable />
+          <div className="table-container">
+            <RCShopOverviewTable />
           </div>
           <div className="entry">
             <Button color="violet" appearance="primary">Create a new entry</Button>
@@ -28,4 +29,4 @@ const HM = () => {
   );
 };
 
-export default HM;
+export default RC;
